@@ -5,3 +5,26 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+cats = [
+    {
+        name: "Felix",
+        age: 2,
+        enjoys: "naps"
+    },
+    {
+        name: "Garfield",
+        age: 5,
+        enjoys: "eating lasagna"
+    },
+    {
+        name: "Bob",
+        age: 12,
+        enjoys: "attacking birds"
+    }
+]
+
+Cats.each do |attributes|
+    cat.create attributes
+    puts "creating cat #{attributes}"
+end
