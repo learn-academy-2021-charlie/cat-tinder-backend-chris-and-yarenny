@@ -24,7 +24,7 @@ cats = [
     }
 ]
 
-Cats.each do |attributes|
-    cat.create attributes
+cats.each do |attributes|
+    Cat.create attributes
     puts "creating cat #{attributes}"
 end
